@@ -1,0 +1,11 @@
+ansible-la/app01/.vagrant/
+ansible-la/app01/ubuntu-bionic-18.04-cloudimg-console.log/
+
+ansible-la/db01/.vagrant/
+ansible-la/db01/ubuntu-bionic-18.04-cloudimg-console.log/
+
+ansible-la/control-node/.vagrant/
+ansible-la/control-node/ubuntu-bionic-18.04-cloudimg-console.log
+
+vagrant-lab/.vagrant
+DEVOPS/.vagrant
