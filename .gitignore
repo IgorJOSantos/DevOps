@@ -1,1 +1,10 @@
-.vagrant
+vagrant-lab/.vagrant
+
+ansible-lab/app01/*.vagrant
+ansible-lab/app01/*.log
+
+ansible-lab/control-node/*.vagrant
+ansible-lab/control-node/*.log
+
+ansible-lab/db01/*.vagrant
+ansible-lab/db01/*.log
