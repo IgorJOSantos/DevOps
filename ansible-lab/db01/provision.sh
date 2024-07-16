@@ -1,0 +1,7 @@
+#/bin/sh
+echo "Instalando o Python3"
+sudo apt-get install -y python3
+
+cat << EOT >> /home/vagrant/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDdT97f3UBRo54EiOIcPjUYEsNX49c3L5BiyAMkejieMkOUsdLcFWNnD+Y4K8UlTPMQWJ0Hr3PT+MFKUSjVJJbQ6P+cP0NbBsfuChwiZiRk+SlYOj+PCWogKpDkqSAfZYveZowwgELBiLX4MgarhK6OeCtjPnNuKAt9hp0gjPL+DiY4/roTdxow9HCZl9Yjvg3uwwBnAl3l2P4pRGnxNjdYx7UXzqZwGZJ1xiV04PI/3d98NojuyZT5Gq+ChzqAqvVvYuTxU583lXF2JAF34dJLtvAapyRWVPOFr+oAGFwG68jJrFW+pbj1qX5GoULoIfkC6sWrW4N9MDre2Pmhilr3 vagrant@control-node
+EOT

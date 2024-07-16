@@ -1,0 +1,10 @@
+- name: Upgrade de todos os pacotes do S.O
+  nano:
+    name: '*'
+    state: latest
+
+- name: Instalacao do git client
+  nano:
+    name: git
+    state: latest
+    
